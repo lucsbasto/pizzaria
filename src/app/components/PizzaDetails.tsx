@@ -40,7 +40,7 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
     } else {
       setAdditionalToppingPrice(0)
     }
-  })
+  }, [additionalTopping])
 
   return (
     <div className="flex flex-col lg:flex-row lg:gap-x-8 h-full md:p-8">
@@ -65,12 +65,12 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
             </div>
             <SizeSelection pizza={pizza} size={size} setSize={setSize}/>
             <CrustSelection crust={crust} setCrust={setCrust}/>
-            <div>
+            <div className="mb-4 text-xl font-semibold">
               Choose topping
             </div>
-            <div>
+            <div className="flex flex-1 flex-wrap gap-2 py-1 justify-center lg:justify-start">
               {pizza.toppings.map((topping, index) => {
-                return <Topping key={index}/>
+                return <Topping key={index} topping={topping} additionalTopping={additionalTopping} setAdditionalTopping={setAdditionalTopping}/>
               })
               }
             </div>
