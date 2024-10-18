@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import {Bangers, Quicksand, Roboto_Condensed} from "next/font/google";
+import { Bangers, Quicksand, Roboto_Condensed } from "next/font/google";
+import Nav from "./components/Nav";
 import "./globals.css";
 
 const quicksand = Quicksand({
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body
         className={`${quicksand.variable} ${bangers.variable} ${robotoCondensed.variable} antialiased font-quicksand`}
       >
+        <Nav/>
         {children}
       </body>
     </html>

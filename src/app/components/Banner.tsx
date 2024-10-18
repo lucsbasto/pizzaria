@@ -19,7 +19,7 @@ const Banner = () => {
             </div>
           </MouseParallaxChild>
           <MouseParallaxChild factorX={0.2} factorY={0.3} className="relative">
-            <div className="flex flex-col lg:flex-row items-center text-center lg:text-left flex-1 px-6">
+            <div className="flex flex-col lg:flex-row items-center text-center lg:text-left flex-1">
               <div className="flex-1 flex justify-end max-w-md lg:max-w-max">
                 <Image src={'/pizza-banner.png'} width={550} height={558} alt="" priority={true}/>
               </div>
@@ -31,7 +31,7 @@ const Banner = () => {
               <Image src={'/chilli-2.png'} width={130} height={84} alt=""/>
             </MouseParallaxChild>
             <MouseParallaxChild factorX={0.6} factorY={0.6} className="absolute top-2/4 -left-20 hidden xl:flex">
-              <Image src={'/chilli-2.png'} width={84} height={72} alt=""/>
+              <Image src={'/garlic-1.png'} width={84} height={72} alt=""/>
             </MouseParallaxChild>
             <MouseParallaxChild factorX={0.2} factorY={0.6} className="absolute top-[22rem] -left-20 hidden xl:flex">
               <Image src={'/garlic-2.png'} width={100} height={72} alt=""/>
