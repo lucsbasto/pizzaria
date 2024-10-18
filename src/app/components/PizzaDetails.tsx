@@ -11,7 +11,7 @@ import Topping from "./Topping"
 const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean, setModal: any}) => {
 
   const [size, setSize] = useState('small')
-  const [crust, setCrust] = useState('traditional')
+  const [crust, setCrust] = useState('tradicional')
   const [additionalTopping, setAdditionalTopping] = useState([])
   const [additionalToppingPrice, setAdditionalToppingPrice] = useState(0)
   const [price, setPrice] = useState(0)
@@ -59,12 +59,12 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
                   {size === 'small' ? '25 cm' : size === 'medium' ? '30 cm' : '35 cm'}
                 </span>
                 <span>
-                  , {crust} crust
+                  , borda {crust}
                 </span>
               </div>
             </div>
             <SizeSelection pizza={pizza} size={size} setSize={setSize}/>
-            <CrustSelection/>
+            <CrustSelection crust={crust} setCrust={setCrust}/>
             <div>
               Choose topping
             </div>
