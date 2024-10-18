@@ -4,6 +4,7 @@ import { useState } from "react"
 import { IoCloseOutline } from "react-icons/io5"
 import Modal from 'react-modal'
 import { Pizza } from "../types"
+import PizzaDetails from "./PizzaDetails"
 
 Modal.setAppElement('body')
 
@@ -52,7 +53,8 @@ const PizzaComponent = ({pizza}: {pizza: Pizza}) => {
       className='bg-white w-full h-full lg:max-w-[900px] lg:max-h-[600px] lg:rounded-[30px] lg:fixed lg:top-[50%] lg:left-[50%] lg:translate-x-[-50%] lg:translate-y-[-50%] outline-none'>
         <div onClick={closeModal} className="absolute z-30 right-5 top-5 hover:scale-110 duration-200 cursor-pointer">
           <IoCloseOutline className="text-4xl text-orange"/>
-        </div>  
+        </div> 
+        <PizzaDetails pizza={pizza} modal={modal} setModal={setModal}/>
       </Modal>}
     </div>
   )
