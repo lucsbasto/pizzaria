@@ -6,7 +6,7 @@ import { MouseParallaxChild, MouseParallaxContainer } from "react-parallax-mouse
 const Banner = () => {
   return (
     <section className="bg-primary bg-pattern lg:min-h-[768px] pt-16 lg:pt-16">
-      <div className="container mx-auto min-h-[768px] flex items-center justify-center">
+      <div className="container mt-10 mx-auto min-h-[768px] flex items-center justify-center">
         <MouseParallaxContainer globalFactorX={0.4} globalFactorY={0.3} resetOnLeave className="w-full flex flex-col lg:flex-row justify-center items-center">
           <MouseParallaxChild factorX={0.1} factorY={0.2}>
             <div className="flex flex-coll lg:flex-row items-center text-center lg:text-left flex-1 px-6 text-white">
