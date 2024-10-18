@@ -14,3 +14,14 @@ export type Pizza = {
   priceLg: number;
   toppings: Topping[];
 };
+
+export type CartItem = {
+  id: string, 
+  image: string, 
+  name: string,
+  price: number, 
+  additionalTopping: Topping[], 
+  size: string, 
+  crust: string, 
+  amount?: number
+}

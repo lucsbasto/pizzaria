@@ -2,7 +2,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import Image from "next/image"
-import { useEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
+import { CartContext } from "../context/CartContext"
 import { Pizza } from "../types"
 import CrustSelection from "./CrustSelection"
 import SizeSelection from "./SizeSelection"
@@ -16,6 +17,8 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
   const [additionalTopping, setAdditionalTopping] = useState([])
   const [additionalToppingPrice, setAdditionalToppingPrice] = useState(0)
   const [price, setPrice] = useState(0)
+
+  const {addToCart} = useContext(CartContext)
 
   useEffect(() => {
     if(size === 'small'){
@@ -78,7 +81,7 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
           </div>
         </div>
         <div className="h-full flex items-center px-2 lg:items-end">
-          <button className="btn btn-lg gradient w-full flex justify-center gap-x-2">
+          <button onClick={() => addToCart({id: pizza.id, image: pizza.image, name: pizza.name, price, additionalTopping, size, crust})} className="btn btn-lg gradient w-full flex justify-center gap-x-2">
             <div>Add to cart for</div>
             <div>R$ {price}</div>
             

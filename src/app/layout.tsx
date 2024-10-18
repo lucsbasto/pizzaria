@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Bangers, Quicksand, Roboto_Condensed } from "next/font/google";
+import CartMobile from "./components/CartMobile";
+import CartMobileIcon from "./components/CartMobileIcon";
 import Nav from "./components/Nav";
+import CartProvider from "./context/CartContext";
 import "./globals.css";
 
 const quicksand = Quicksand({
@@ -32,13 +35,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${quicksand.variable} ${bangers.variable} ${robotoCondensed.variable} antialiased font-quicksand`}
-      >
-        <Nav/>
-        {children}
-      </body>
-    </html>
+    <CartProvider>
+      <html lang="en">
+        <body
+          className={`${quicksand.variable} ${bangers.variable} ${robotoCondensed.variable} antialiased font-quicksand`}
+        >
+          <Nav/>
+          <CartMobileIcon />
+          <CartMobile />
+          {children}
+        </body>
+      </html>
+    </CartProvider>
   );
 }
