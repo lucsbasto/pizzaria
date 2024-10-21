@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
@@ -6,11 +7,12 @@ const Nav = () => {
   return (
     <nav className="absolute w-full py-8 mb-10">
       <div className="container mx-auto flex flex-col lg:flex-row gap-y-3 justify-between items-center">
-        <Link href={"#"} className="max-w-[160px] lg:max-w-max">
-          <h1 className="font-bangers text-5xl text-white">NOVO<span className="text-[#FFA323]">SABOR</span></h1>
+        <Link href={"#"} className="max-w-[150px] t lg:max-w-max">
+          <Image src={'/logo.png'} width={200} height={200} alt=''/>
+          {/* <h1 className="font-bangers text-5xl text-white">NOVO<span className="text-[#FFA323]">SABOR</span></h1> */}
         </Link>
         <div className="flex gap-x-8 items-center justify-center">
-          <Link href={'https://wa.me/5563984604900'} target="_blank">
+          <Link href={'https://wa.me/556399259640'} target="_blank">
             <div className="flex gap-x-3 items-center">
               <FaWhatsapp size={50} color="#FFA323"/>
               <div className="text-white">
