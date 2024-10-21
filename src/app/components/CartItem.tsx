@@ -38,7 +38,7 @@ const CartItemCompoment = ({item}: {item: CartItem}) => {
           </div>
           <div>
             <span className="text-[17px] font-medium font-robotoCondensed">
-              R$ {parseFloat(item.price * item.amount).toFixed(2)}
+              R$ {(item.price * item.amount!).toFixed(2)}
             </span>
           </div>
         </div>
