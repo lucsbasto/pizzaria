@@ -5,7 +5,7 @@ import { FaCartShopping } from "react-icons/fa6";
 
 const Nav = () => {
   return (
-    <nav className="absolute w-full py-8 mb-10">
+    <nav className="absolute w-full py-4 mb-10">
       <div className="container mx-auto flex flex-col lg:flex-row gap-y-3 justify-between items-center">
         <Link href={"#"} className="max-w-[150px] t lg:max-w-max">
           <Image src={'/logo.png'} width={200} height={200} alt=''/>
@@ -17,7 +17,7 @@ const Nav = () => {
               <FaWhatsapp size={50} color="#FFA323"/>
               <div className="text-white">
                 <div className="font-robotoCondensed uppercase font-bold leading-none text-xl">Chama lá no zap</div>
-                <div className="text-2xl font-robotoCondensed font-extrabold">63 9 85021531</div>
+                <div className="text-2xl font-robotoCondensed font-extrabold">63 9 92596409</div>
               </div>
             </div>
           </Link>

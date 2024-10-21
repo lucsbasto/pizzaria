@@ -32,8 +32,8 @@ const Banner = () => {
             <MouseParallaxChild factorX={0.4} factorY={0.4} className="absolute top-16 left-4 hidden xl:flex">
               <Image src={'/chilli-2.png'} width={130} height={84} alt=""/>
             </MouseParallaxChild>
-            <MouseParallaxChild factorX={0.6} factorY={0.6} className="absolute top-1/4 -left-20 hidden xl:flex">
-              <Image src={'/garlic-1.png'} width={84} height={72} alt=""/>
+            <MouseParallaxChild factorX={0.6} factorY={0.6} className="absolute top-0 -left-2/4 hidden xl:flex">
+              <Image src={'/cherry.png'} width={200} height={200} alt=""/>
             </MouseParallaxChild>
             <MouseParallaxChild factorX={0.2} factorY={0.6} className="absolute top-[22rem] -left-25 hidden xl:flex">
               <Image src={'/garlic-2.png'} width={100} height={72} alt=""/>
