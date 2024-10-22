@@ -23,15 +23,15 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
   useEffect(() => {
     if(size === 'small'){
       const price = pizza.priceSm + additionalToppingPrice
-      setPrice(price)
+      setPrice(Number(price.toFixed(2)))
     }
     if(size === 'medium'){
       const price = pizza.priceMd + additionalToppingPrice
-      setPrice(price)
+      setPrice(Number(price.toFixed(2)))
     }
     if(size === 'large'){
       const price = pizza.priceLg + additionalToppingPrice
-      setPrice(price)
+      setPrice(Number(price.toFixed(2)))
     }
   }, [size, pizza.priceSm, pizza.priceMd, pizza.priceLg, additionalToppingPrice])
 
