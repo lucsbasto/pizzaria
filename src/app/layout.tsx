@@ -3,6 +3,7 @@ import { Bangers, Quicksand, Roboto_Condensed } from "next/font/google";
 import CartMobile from "./components/CartMobile";
 import CartMobileIcon from "./components/CartMobileIcon";
 import Nav from "./components/Nav";
+import PrizeMobileIcon from "./components/PrizeMobileIcon";
 import CartProvider from "./context/CartContext";
 import "./globals.css";
 
@@ -41,7 +42,10 @@ export default function RootLayout({
           className={`${quicksand.variable} ${bangers.variable} ${robotoCondensed.variable} antialiased font-quicksand`}
         >
           <Nav/>
-          <CartMobileIcon />
+          <div>
+            <PrizeMobileIcon/>
+            <CartMobileIcon />
+          </div>
           <CartMobile />
           {children}
         </body>

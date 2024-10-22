@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
+import Prize from "./PrizeIcon";
 
 const Nav = () => {
   return (
@@ -11,6 +12,9 @@ const Nav = () => {
           <Image src={'/logo.png'} width={200} height={200} alt=''/>
           {/* <h1 className="font-bangers text-5xl text-white">NOVO<span className="text-[#FFA323]">SABOR</span></h1> */}
         </Link>
+        <div>
+          <Prize />
+        </div>
         <div className="flex gap-x-8 items-center justify-center">
           <Link href={'https://wa.me/5563992596409'} target="_blank">
             <div className="flex gap-x-3 items-center">
