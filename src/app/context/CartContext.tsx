@@ -8,7 +8,7 @@ export const CartContext = createContext({} as CartContextType);
 
 const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     const [cart, setCart] = useState<CartItem[]>([])
-    const [isOpen, setIsOpen] = React.useState<boolean>(true);
+    const [isOpen, setIsOpen] = React.useState<boolean>(false);
 
     const addToCart =(item: CartItem) => {
         item.additionalTopping.sort((a, b) => a.name.localeCompare(b.name))
