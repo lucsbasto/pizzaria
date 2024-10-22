@@ -12,7 +12,7 @@ const CartBottom = () => {
             <div>Total:</div>
             <div>R$ {cart.reduce((acc: any, curr: any) => {
         return acc + curr.price
-      }, 0)}</div>
+      }, 0).toFixed(2)}</div>
           </div>
           <div className="flex flex-col gap-y-3">
             <button className="btn btn-lg gradient font-semibold flex justify-center">Checkout</button>
