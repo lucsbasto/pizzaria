@@ -13,11 +13,6 @@ export const pizzas: Pizza[] = [
     priceLg: 11.99,
     toppings: [
       {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
-      {
         image: '/bacon.png',
         name: 'bacon',
         price: 2,
@@ -49,11 +44,6 @@ export const pizzas: Pizza[] = [
     priceMd: 11.99,
     priceLg: 12.99,
     toppings: [
-      {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
       {
         image: '/bacon.png',
         name: 'bacon',
@@ -87,11 +77,6 @@ export const pizzas: Pizza[] = [
     priceLg: 12.99,
     toppings: [
       {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
-      {
         image: '/bacon.png',
         name: 'bacon',
         price: 2,
@@ -123,11 +108,6 @@ export const pizzas: Pizza[] = [
     priceMd: 12.99,
     priceLg: 13.99,
     toppings: [
-      {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
       {
         image: '/bacon.png',
         name: 'bacon',
@@ -161,11 +141,6 @@ export const pizzas: Pizza[] = [
     priceLg: 11.99,
     toppings: [
       {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
-      {
         image: '/bacon.png',
         name: 'bacon',
         price: 2,
@@ -197,11 +172,6 @@ export const pizzas: Pizza[] = [
     priceMd: 11.99,
     priceLg: 12.99,
     toppings: [
-      {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
       {
         image: '/bacon.png',
         name: 'bacon',
@@ -235,11 +205,6 @@ export const pizzas: Pizza[] = [
     priceLg: 14.99,
     toppings: [
       {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
-      {
         image: '/bacon.png',
         name: 'bacon',
         price: 2,
@@ -271,11 +236,6 @@ export const pizzas: Pizza[] = [
     priceMd: 12.99,
     priceLg: 13.99,
     toppings: [
-      {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
       {
         image: '/bacon.png',
         name: 'bacon',
@@ -309,11 +269,6 @@ export const pizzas: Pizza[] = [
     priceLg: 12.99,
     toppings: [
       {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
-      {
         image: '/bacon.png',
         name: 'bacon',
         price: 2,
@@ -345,11 +300,6 @@ export const pizzas: Pizza[] = [
     priceMd: 10.99,
     priceLg: 11.99,
     toppings: [
-      {
-        image: '/cherry.png',
-        name: 'tomate cereja',
-        price: 2,
-      },
       {
         image: '/bacon.png',
         name: 'bacon',
