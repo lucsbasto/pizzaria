@@ -45,7 +45,7 @@ const CartItemCompoment = ({item}: {item: CartItem}) => {
       </div>
       <div className="flex flex-wrap items-center gap-3 p-6 border-b border-black/10">
         <div className="font-semibold">
-          Toppings: {item.additionalTopping.length === 0  && 'None'}
+          Adicionais: {item.additionalTopping.length === 0  && 'None'}
         </div>
         {
           item.additionalTopping.map((topping, index) => {

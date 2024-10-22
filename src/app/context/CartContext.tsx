@@ -13,7 +13,6 @@ const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     const addToCart =(item: CartItem) => {
         item.additionalTopping.sort((a, b) => a.name.localeCompare(b.name))
         const newItem = { ...item, amount: 1}
-        console.log({cart})
         setCart([...cart, newItem])
     }
   

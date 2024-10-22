@@ -36,13 +36,13 @@ const PizzaComponent = ({pizza}: {pizza: Pizza}) => {
       </div>
       <div className="mb-6 flex items-center justify-between">
         <div className="hidden lg:flex text-xl font-semibold">
-          starts at {pizza.priceSm}
+          A partir de R$ {pizza.priceSm}
         </div>
         <button onClick={openModal} className="hidden lg:flex gradient text-white rounded-lg btn-sm font-semibold text-sm">
-          Choose
+          Adicionar ao carrinho
         </button>
         <button onClick={openModal} className="btn btn-sm gradient lg:hidden px-3">
-          starts at {pizza.priceSm}
+          A partir de R$ {pizza.priceSm}
         </button>
       </div>
       {modal && 

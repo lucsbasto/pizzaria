@@ -4,7 +4,7 @@
 import Image from "next/image"
 import { useContext, useEffect, useState } from "react"
 import { CartContext } from "../context/CartContext"
-import { Pizza } from "../types"
+import { CartItem, Pizza } from "../types"
 import CrustSelection from "./CrustSelection"
 import SizeSelection from "./SizeSelection"
 import Topping from "./Topping"
@@ -15,10 +15,10 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
   const [size, setSize] = useState('small')
   const [crust, setCrust] = useState('tradicional')
   const [additionalTopping, setAdditionalTopping] = useState([])
-  const [additionalToppingPrice, setAdditionalToppingPrice] = useState(0)
-  const [price, setPrice] = useState(0)
+  const [additionalToppingPrice, setAdditionalToppingPrice] = useState<number>(0)
+  const [price, setPrice] = useState<number>(0)
 
-  const {addToCart} = useContext(CartContext)
+  const { addToCart, setIsOpen } = useContext(CartContext)
 
   useEffect(() => {
     if(size === 'small'){
@@ -46,6 +46,11 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
     }
   }, [additionalTopping])
 
+  const handleAddCard = (item: CartItem) => {
+    addToCart(item)
+    setModal(false)
+  }
+
   return (
     <div className="flex flex-col lg:flex-row lg:gap-x-8 h-full md:p-8">
       <div className="lg:flex-1 flex justify-center items-center">
@@ -70,7 +75,7 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
             <SizeSelection pizza={pizza} size={size} setSize={setSize}/>
             <CrustSelection crust={crust} setCrust={setCrust}/>
             <div className="mb-4 text-xl font-semibold">
-              Choose topping
+              Escolha seus adicionais
             </div>
             <div className="flex flex-1 flex-wrap gap-2 py-1 justify-center lg:justify-start">
               {pizza.toppings.map((topping, index) => {
@@ -81,10 +86,9 @@ const PizzaDetails = ({ pizza, modal, setModal }: {pizza: Pizza, modal: boolean,
           </div>
         </div>
         <div className="h-full flex items-center px-2 lg:items-end">
-          <button onClick={() => addToCart({id: pizza.id, image: pizza.image, name: pizza.name, price, additionalTopping, size, crust})} className="btn btn-lg gradient w-full flex justify-center gap-x-2">
-            <div>Add to cart for</div>
+          <button onClick={() => handleAddCard({id: pizza.id, image: pizza.image, name: pizza.name, price, additionalTopping, size, crust})} className="btn btn-lg gradient w-full flex justify-center gap-x-2">
+            <div>Adicionar ao carrinho por</div>
             <div>R$ {price}</div>
-            
           </button>
         </div>
       </div>
