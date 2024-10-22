@@ -14,27 +14,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -51,27 +51,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -88,27 +88,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -125,27 +125,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -162,27 +162,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -199,27 +199,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -236,27 +236,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -273,27 +273,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -310,27 +310,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
@@ -347,27 +347,27 @@ export const pizzas: Pizza[] = [
     toppings: [
       {
         image: '/cherry.png',
-        name: 'cherry tomatoes',
+        name: 'tomate cereja',
+        price: 2,
+      },
+      {
+        image: '/bacon.png',
+        name: 'bacon',
         price: 2,
       },
       {
         image: '/corn.png',
-        name: 'corn',
+        name: 'milho',
         price: 2,
       },
       {
         image: '/fresh-tomatoes.png',
-        name: 'fresh tomatoes',
-        price: 2,
-      },
-      {
-        image: '/jalapeno.png',
-        name: 'jalapeno',
+        name: 'tomate fresco',
         price: 2,
       },
       {
         image: '/parmesan.png',
-        name: 'parmesan',
+        name: 'queijo parmesão',
         price: 2,
       },
     ],
