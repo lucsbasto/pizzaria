@@ -12,7 +12,7 @@ const Nav = () => {
           {/* <h1 className="font-bangers text-5xl text-white">NOVO<span className="text-[#FFA323]">SABOR</span></h1> */}
         </Link>
         <div className="flex gap-x-8 items-center justify-center">
-          <Link href={'https://wa.me/556399259640'} target="_blank">
+          <Link href={'https://wa.me/5563992596409'} target="_blank">
             <div className="flex gap-x-3 items-center">
               <FaWhatsapp size={50} color="#FFA323"/>
               <div className="text-white">
