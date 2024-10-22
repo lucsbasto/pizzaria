@@ -3,7 +3,7 @@ import { Pizza } from "./types";
 // pizza data
 export const pizzas: Pizza[] = [
   {
-    id: 1,
+    id: '1',
     name: 'capricciosa',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -40,7 +40,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 2,
+    id: '2',
     name: 'cheesy',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -77,7 +77,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 3,
+    id: '3',
     name: 'hawaii',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -114,7 +114,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 4,
+    id: '4',
     name: 'italian',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -151,7 +151,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 5,
+    id: '5',
     name: 'margherita',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -188,7 +188,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 6,
+    id: '6',
     name: 'pepperoni',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -225,7 +225,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 7,
+    id: '7',
     name: 'quattro formaggi',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -262,7 +262,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 8,
+    id: '8',
     name: 'quattro stagioni',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -299,7 +299,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 9,
+    id: '9',
     name: 'tonno',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
@@ -336,7 +336,7 @@ export const pizzas: Pizza[] = [
     ],
   },
   {
-    id: 10,
+    id: '10',
     name: 'vegetarian',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.',
